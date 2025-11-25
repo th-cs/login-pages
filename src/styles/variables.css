@@ -1,0 +1,32 @@
+/* CSS Variables */
+
+:root {
+	/* Colors */
+	--white: #FFFFFF;
+
+	--grey-01: #E6E8E7;
+	--grey-02: #D9D9D9;
+	--grey-03: #9A9A9A;
+	--grey-04: #969696;
+	--grey-05: #6E6E6E;
+	--grey-06: #6C6C6C;
+	--grey-07: #232323;
+
+	--black: #000000;
+
+	--blue-01: #367AFF;
+	--blue-02: #2657b8;
+
+	/* Font sizes */
+	--text-01: 0.875rem; /* 14px */
+	--text-02: 1rem; /* 16px */
+	--text-03: 1.125rem; /* 18px */
+	--text-04: 1.5rem; /* 24px */
+	--text-05: 2.5rem; /* 40px */
+
+	/* Font weights */
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semi-bold: 600;
+	--font-weight-bold: 700;
+}
