@@ -1,0 +1,98 @@
+<!-- Sign-up page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign up</title>
+	<link rel="stylesheet" href="../../styles/global.css">
+	<link rel="stylesheet" href="./sign-up.css">
+</head>
+<body>
+	<main>
+		<section id="page-content">
+			<header>
+				<img src="../../assets/icons/revolutie-logo-icon.svg"
+				alt="Revolutie logo icon">
+				<span>Revolutie</span>
+			</header>
+
+			<div id="main-content">
+				<div id="form-header">
+					<h1>Sign up</h1>
+					<p>Sign up to enjoy all the features of Revolutie!</p>
+				</div>
+
+				<div id="form">
+					<form action="" method="get">
+						<fieldset class="text-input">
+							<legend>Your name</legend>
+							<input type="text"
+							placeholder="Enter your name" required>
+						</fieldset>
+
+						<fieldset class="text-input">
+							<legend>Date of Birth</legend>
+							<input type="date" required>
+						</fieldset>
+
+						<fieldset class="text-input">
+							<legend>Email</legend>
+							<input type="email"
+							placeholder="Enter your email address" required>
+						</fieldset>
+
+						<fieldset class="text-input">
+							<legend>Password</legend>
+							<div id="password-option">
+								<input id="password-input" type="password"
+								placeholder="Enter your password" required>
+								<button id="password-eye" type="button"
+								onclick="togglePassword()">
+									<img src="../../assets/icons/eye-icon.svg"
+									alt="Icon of an eye">
+								</button>
+							</div>
+						</fieldset>
+
+						<fieldset id="accept-input">
+							<input id="checkbox" type="checkbox">
+							<label for="checkbox">I have read and accept the
+								<a href="#" onclick="privacyPolicy()">
+								privacy policy
+								</a>
+							</label>
+						</fieldset>
+
+						<button id="signin-button" type="button"
+						onclick="signUp()">Sign up</button>
+					</form>
+
+					<div id="divider">
+						<div class="line"></div>
+						<span>OR</span>
+						<div class="line"></div>
+					</div>
+
+					<button id="google-button" type="button"
+					onclick="signUpGoogle()">Continue with Google
+						<img src="../../assets/icons/google-logo-icon.svg"
+						alt="Google logo icon">
+					</button>
+				</div>
+
+				<p id="signin-account">Already have an account?
+					<a href="../../../index.html">Sign in</a>
+				</p>
+			</div>
+		</section>
+
+		<div id="page-cover">
+			<img src="../../assets/images/blue-ink-img.jpg"
+			alt="Picture of blue ink being diluted">
+		</div>
+	</main>
+
+	<script src="../../scripts/main.js"></script>
+</body>
+</html>
